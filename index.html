@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora Básica</title>
+        <link rel="stylesheet" href="estilo.css">
+
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td colspan="5" style="text-align: right;" id="visor">0</td>
+            </tr>
+            <tr>
+                <td class="verdeEscuro" colspan="3" id="c">C</td>
+                <td class="verdeEscuro" id="(">(</td>
+                <td class="verdeEscuro" id=")">)</td>
+            </tr>
+            <tr>
+                <td class="verdeClaro" id="7">7</td>
+                <td class="verdeClaro" id="8">8</td>
+                <td class="verdeClaro" id="9">9</td>
+                <td class="verdeEscuro" id="divisao">&divide;</td>
+                <td class="verdeEscuro" id="raiz">&radic;</td>
+            </tr>
+            <tr>
+                <td class="verdeClaro" id="4">4</td>
+                <td class="verdeClaro" id="5">5</td>
+                <td class="verdeClaro" id="6">6</td>
+                <td class="verdeEscuro" id="multiplicacao">&times;</td>
+                <td class="verdeEscuro" id="quadrado">x²</td>
+            </tr>
+            <tr>
+                <td class="verdeClaro" id="1">1</td>
+                <td class="verdeClaro" id="2">2</td>
+                <td class="verdeClaro" id="3">3</td>
+                <td class="verdeEscuro" id="-">-</td>
+                <td rowspan="2" style="background-color: yellowgreen;" id="=">=</td>
+            </tr>
+            <tr>
+                <td class="verdeClaro" id="0">0</td>
+                <td class="verdeEscuro" id=",">,</td>
+                <td class="verdeEscuro" id="%">%</td>
+                <td class="verdeEscuro" id="+">+</td>
+            </tr>
+        </table>
+        <script src="/calc.js"></script>
+    </body>
+</html>
